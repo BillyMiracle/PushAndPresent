@@ -23,6 +23,7 @@
     
     [_fourthView.backButton addTarget:self action:@selector(pressBack) forControlEvents:UIControlEventTouchUpInside];
     [_fourthView.backToSecondButton addTarget:self action:@selector(pressToSecond) forControlEvents:UIControlEventTouchUpInside];
+    NSLog(@"%@", self.navigationController.viewControllers);
 }
 
 - (void)pressBack {
