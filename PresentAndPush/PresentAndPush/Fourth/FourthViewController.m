@@ -31,8 +31,8 @@
 }
 
 - (void)pressToSecond {
-    [self.navigationController popViewControllerAnimated:NO];
-    [self.delegate backToSecond];
+//    [self.navigationController popViewControllerAnimated:NO];
+//    [self.delegate backToSecond];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
-
 @end
